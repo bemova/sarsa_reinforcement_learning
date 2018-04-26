@@ -27,7 +27,7 @@ def update():
                 break
 
     # end of the game and learning and save the result
-    q_rl.Q.to_csv("./learning_results/q_result.csv")
+    q_rl.Q.to_csv("./learning_results/sarsa_result.csv")
     print('Game is Finished After 100 Episode.')
     # close the environment
     env.destroy()
